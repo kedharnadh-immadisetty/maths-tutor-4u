@@ -1,0 +1,150 @@
+<! DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Math Tutor.4U</title>
+    <meta name="viewport", content="device-width ,initial-scale=1.0,user-scalable=yes">
+    </head>
+    <link rel="stylesheet" href="mystyles.css">
+    <body>
+        <h1>
+            <div class="heading">
+            Maths.Tutor4U
+                </div>
+        </h1>
+        
+        <div id="container">
+            <div id="header">
+            <div id="brand">
+                
+                
+                <!--<h1>
+                <a href="#" class="glitch">Maths is fun..let's learn it...</a>
+                </h1>-->
+                
+             
+                <h2 class="ml9">
+                    <span class="text-wrapper">
+                         <span class="letters">Maths is fun..let's learn it...</span>
+                    </span>
+                </h2>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+                <script>
+                var textWrapper = document.querySelector('.ml9 .letters');
+                textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+                    </script>
+                <script>
+                    anime.timeline({loop: true})
+                    .add({
+                        targets: '.ml9 .letter',
+                        scale: [0, 1],
+                        duration: 1500,
+                        elasticity: 600,
+                        delay: (el, i) => 45 * (i+1)
+                        }).add({
+                        targets: '.ml9',
+                        opacity: 0,
+                        duration: 1000,
+                        easing: "easeOutExpo",
+                        delay: 1000
+                      });
+                    
+                             
+                </script>
+                
+                
+                </div>
+                <div id="search-box">
+                    <form method="get">
+                        <input type="text" class="text" placeholder="Enter topic to search"  class"">
+                        <input type="submit" value="Search a topic" class="submit">
+                    
+                    
+                    </form>
+                </div>
+                <div class="clear">
+                
+                </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <!--<li><a href="/">Book a trail class</a></li>-->
+                    <li><a href="/">ONLINE TUTORIAL</a></li>
+                    <li><a href="/">PRIVATE TUTOR</a></li>
+                    <li><a href="/">LOGIN/SIGNUP</a></li>
+                    <li><a href="/">CONTACT US</a></li>
+                    
+                </ul>
+               
+                </div>
+            <div id="intro">
+                <h3>Fed Up with maths?? We are here to help...</h3>
+                <p>Our website uses an interactive methodology of teaching Maths using the latest web technologies. Your learning experience with us is guaranteed to be intuitive and fun. You will have fun while learning. This is the secret of our outstanding results. Check reviews from our students.</p>
+            
+            </div>
+            <div id="left-sidebar" class="side-bar">
+                <h3>GoTo</h3>
+                <ul>
+                    <li><a href="/">topic 1 Free Tutorials</a></li>
+                    <li><a href="/">topic 2 Free Tutorials</a></li>
+                    <li><a href="/">topic 3 Free Tutorials</a></li>
+                    <li><a href="/">topic 4 Free Tutorials</a></li>
+                    <li><a href="/">topic 5 Free Tutorials</a></li>
+                    <li><a href="/">topic 6 Free Tutorials</a></li>
+                    <li><a href="/">topic 7 Free Tutorials</a></li>
+                    <li><a href="/">topic 8 Free Tutorials</a></li>
+                    <li><a href="/">topic 9 Free Tutorials</a></li>
+                    <li><a href="/">topic 10 Free Tutorials</a></li>
+                
+                </ul>
+            
+            </div>
+            
+            
+            <div id="right-sidebar" class="side-bar">
+                <h3>Why Us?</h3>
+                <ul>
+                    <li><a href="/">Well trained teachers</a></li>
+                    <li><a href="/">Teachers available all the time</a></li>
+                    <li><a href="/">Gives you an offline-class experiance</a></li>
+                    <li><a href="/">Doubt clearing sessions</a></li>
+                    <li><a href="/">Available on laptop,Tablets and Phones</a></li>
+                    <li><a href="/">Not Satisfied?30 Day Guaranteed Refund </a></li>
+                    <li><a href="/">Complete Curriculum</a></li>
+                
+            
+                
+                </ul>
+                
+            
+            </div>
+            <div class="clear"></div>
+            <footer class="footer">
+                <div>
+                    <p class="copy">&copy; 2020-Maths.Tutor4U,All Rights Reserved</p>
+                    <p class="social">Follow Us On</p>
+                    <td class="social-links">
+                        <tr>
+                        <a href="/"><img src="https://img.icons8.com/android/35/000000/facebook-new.png"/></a>
+                            <tr><a href="/"><img src="https://img.icons8.com/ios-filled/36/000000/twitter-squared.png"/></a></tr>
+                         <tr><a href="/"><img src="https://img.icons8.com/metro/35/000000/instagram-new.png"/></a></tr>
+                        
+                    </td>
+                
+                </div>
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            </footer>
+        </div
+        
+        
+    </body>
+</html>
